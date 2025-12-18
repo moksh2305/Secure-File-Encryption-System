@@ -28,6 +28,7 @@ _🛡️ Security Engineering_
 -Protection against tampering and wrong-password attacks
 
 **🖥️ Interfaces**
+
 **1️⃣ Command Line Interface (CLI)**
 ‣ Encrypt and decrypt files via terminal
 ‣ Suitable for scripting and technical validation
