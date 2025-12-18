@@ -22,9 +22,13 @@ _🔒 Cryptography_
 _🛡️ Security Engineering_
 
 -Fail-fast integrity checks (decrypt only after verification)
+
 -Encrypted metadata (original filename, size)
+
 -Secure file deletion (multi-pass overwrite + removal)
+
 -Persistent keystore with safe key lifecycle handling
+
 -Protection against tampering and wrong-password attacks
 
 **🖥️ Interfaces**
