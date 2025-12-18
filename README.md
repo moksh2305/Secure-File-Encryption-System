@@ -36,6 +36,7 @@ _🛡️ Security Engineering_
 ‣ Suitable for scripting and technical validation
 
 Run:
+
 python -m ui.main_cli encrypt file.txt password
 
 python -m ui.main_cli decrypt file.txt.secfile password
@@ -54,6 +55,7 @@ python -m ui.main_cli decrypt file.txt.secfile password
 ‣ User-friendly error messages
 
 Run:
+
 python -m ui.gui_app
 
 
@@ -70,9 +72,11 @@ python -m ui.gui_app
 ‣ No file, password, or key ever leaves the browser
 
 Open:
+
 web/index.html
 
 or Run:
+
 python -m http.server
 
 **Threats & Mitigations**
@@ -84,8 +88,11 @@ python -m http.server
 **🧪 Security Behavior (Expected)**
 
 ✔ Correct password → successful decryption
+
 ❌ Wrong password → integrity failure
+
 ❌ Modified encrypted file → decryption blocked
+
 ✔ Original filename restored on decryption
 
 These behaviors are intentional and required for secure systems
@@ -93,9 +100,13 @@ These behaviors are intentional and required for secure systems
 **🏆 What This Project Demonstrates**
 
 ● Real-world cryptographic design
+
 ● Secure key lifecycle management
+
 ● UI + security interaction handling
+
 ● Zero-knowledge encryption principles
+
 ● Defensive programming practices
 
 
