@@ -30,7 +30,9 @@ _🛡️ Security Engineering_
 **🖥️ Interfaces**
 
 **1️⃣ Command Line Interface (CLI)**
+
 ‣ Encrypt and decrypt files via terminal
+
 ‣ Suitable for scripting and technical validation
 
 Run:
@@ -39,10 +41,15 @@ python -m ui.main_cli decrypt file.txt.secfile password
 
 
 **2️⃣ Desktop GUI (Tkinter)**
+
 ‣ File picker with encryption & decryption
+
 ‣ Password strength indicator
+
 ‣ Progress bar and security logs
+
 ‣ Automatic handling of encrypted files
+
 ‣ User-friendly error messages
 
 Run:
@@ -50,10 +57,15 @@ python -m ui.gui_app
 
 
 **3️⃣ Web Interface (Zero-Knowledge)**
+
 ‣ Client-side encryption using Web Crypto API
+
 ‣ Drag-and-drop file support
+
 ‣ Password strength meter
+
 ‣ AES-256-GCM encryption in browser
+
 ‣ No file, password, or key ever leaves the browser
 
 Open:
