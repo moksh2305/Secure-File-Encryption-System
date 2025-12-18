@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Secure File Vault</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔐 Secure File Vault</h1>
+      <p class="badge">Client-side • Zero-knowledge encryption</p>
+
+      <!-- Drag & Drop -->
+      <div id="dropZone">
+        <p>Drag & drop file here<br />or click to select</p>
+        <input type="file" id="fileInput" hidden />
+      </div>
+
+      <!-- File info -->
+      <p id="fileInfo">No file selected</p>
+
+      <!-- Password -->
+      <div class="password-box">
+        <input type="password" id="password" placeholder="Enter password" />
+        <span id="togglePwd">👁️</span>
+      </div>
+
+      <!-- Strength -->
+      <progress id="strength" value="0" max="100"></progress>
+      <p id="strengthText">Password strength</p>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button onclick="encryptFile()">Encrypt</button>
+        <button onclick="decryptFile()">Decrypt</button>
+      </div>
+
+      <!-- Progress -->
+      <progress id="progress" value="0" max="100"></progress>
+      <p id="status">Idle</p>
+
+      <!-- Security info -->
+      <details>
+        <summary>🔍 How it works</summary>
+        <ul>
+          <li>PBKDF2 → Key derivation</li>
+          <li>AES-256-GCM → Encryption</li>
+          <li>Integrity verified before decrypt</li>
+          <li>No file or password leaves your browser</li>
+        </ul>
+      </details>
+    </div>
+
+    <script src="crypto.js"></script>
+  </body>
+</html>
