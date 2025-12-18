@@ -42,6 +42,7 @@ python -m ui.main_cli encrypt file.txt password
 python -m ui.main_cli decrypt file.txt.secfile password
 
 
+
 **2️⃣ Desktop GUI (Tkinter)**
 
 ‣ File picker with encryption & decryption
@@ -57,6 +58,7 @@ python -m ui.main_cli decrypt file.txt.secfile password
 Run:
 
 python -m ui.gui_app
+
 
 
 **3️⃣ Web Interface (Zero-Knowledge)**
