@@ -10,6 +10,7 @@ A Desktop GUI (Tkinter)
 A Zero-knowledge Web UI (client-side encryption)
 
 **🚀 Key Features**
+
 _🔒 Cryptography_
 
 1. AES-256 symmetric encryption for file confidentiality
@@ -61,6 +62,7 @@ or Run:
 python -m http.server
 
 **Threats & Mitigations**
+
 <img width="367" height="180" alt="image" src="https://github.com/user-attachments/assets/265438c2-6c71-43d6-a672-26b49cd85557" />
 
 **NOTE: The keystore/ directory is not committed to GitHub for security reasons.**
