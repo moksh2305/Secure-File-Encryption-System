@@ -21,15 +21,11 @@ _🔒 Cryptography_
 
 _🛡️ Security Engineering_
 
--Fail-fast integrity checks (decrypt only after verification)
-
--Encrypted metadata (original filename, size)
-
--Secure file deletion (multi-pass overwrite + removal)
-
--Persistent keystore with safe key lifecycle handling
-
--Protection against tampering and wrong-password attacks
+1. Fail-fast integrity checks (decrypt only after verification)
+2. Encrypted metadata (original filename, size)
+3. Secure file deletion (multi-pass overwrite + removal)
+4. Persistent keystore with safe key lifecycle handling
+5. Protection against tampering and wrong-password attacks
 
 **🖥️ Interfaces**
 
@@ -41,6 +37,7 @@ _🛡️ Security Engineering_
 
 Run:
 python -m ui.main_cli encrypt file.txt password
+
 python -m ui.main_cli decrypt file.txt.secfile password
 
 
